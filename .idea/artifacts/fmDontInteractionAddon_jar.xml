@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fmDontInteractionAddon:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/fmDontInteractionAddon_jar</output-path>
+    <root id="archive" name="fmDontInteractionAddon.jar">
+      <element id="module-output" name="fmDontInteractionAddon.main" />
+    </root>
+  </artifact>
+</component>
