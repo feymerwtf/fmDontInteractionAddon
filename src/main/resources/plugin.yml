@@ -3,3 +3,7 @@ version: '${version}'
 main: ru.feymer.fmdontinteractionaddon.FmDontInteractionAddon
 api-version: '1.16'
 depend: [ AntiRelog ]
+commands:
+  fmdontinteractionaddon:
+    aliases:
+      - fmdia
