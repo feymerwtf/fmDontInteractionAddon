@@ -47,6 +47,9 @@ public class EventListener implements Listener {
     @EventHandler
     public void onCommand(PlayerCommandPreprocessEvent event) {
         Player player = event.getPlayer();
+        if (player.hasPermission("fmdontinteractionaddon.bypass")) {
+            return;
+        }
         if (!this.contains(player.getName())) {
             String[] args = event.getMessage().split(" ");
             if (args.length >= 2) {
